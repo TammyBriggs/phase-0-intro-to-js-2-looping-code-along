@@ -1,5 +1,5 @@
 // Code your solutions in this file
-const names = ["Joe", "Nina"]
+const names = []
 
 function writeCards(names, event) {
    return  names.map(name=> `Thank you, ${name}, for the wonderful ${event} gift!`)
